@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #0e1014;
+}
+
+header{
+    display: flex;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section h1{
+    margin-top: 70px;
+    font-family:  'Ultrabold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #9747FF;
+}
+
+span{
+     font-family: 'Unbounded', sans-serif;
+     font-size: 40px;
+     font-weight: bold;
+     color: white;
+}
+
+section p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    line-height: 50px;
+    color: aliceblue;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#celulares{
+
+    margin-top: 50px;
+    width: 700px;
+    border-radius: 50%;
+
+
+}
